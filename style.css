@@ -603,7 +603,7 @@ div.paras {
 }
 
 div.ask_for_action_area {
-  background-image: url(Rectangle\ 9.png);
+  background-image: url(/images/Rectangle\ 9.png);
   height: 303px;
   width: 341px;
 }
@@ -756,6 +756,7 @@ div.ask_for_action_area {
 }
 
 /* Desktop */
+
 @media screen and (min-width: 1200px) {
   .hamburger {
     display: none;
@@ -771,13 +772,11 @@ div.ask_for_action_area {
 
   .header_area {
     width: 95%;
-    /* width: 1300px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 38px;
     margin-left: 55px;
-    /* gap: 253px; */
   }
 
   .logo {
@@ -853,8 +852,6 @@ div.ask_for_action_area {
   .rating {
     width: 200px;
     position: absolute;
-    /* border: 4px solid black; */
-    /* background-color: red; */
     margin: -282px -77px;
   }
 
@@ -869,7 +866,6 @@ div.ask_for_action_area {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 37px;
     position: relative;
     margin-top: -59px;
@@ -882,18 +878,14 @@ div.ask_for_action_area {
 
   div.info_area {
     width: 91%;
-    /* height: 229px; */
-    /* flex: 1; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 112px;
     border-top: 1px solid #d4d2d2;
     border-bottom: 1px solid #d4d2d2;
     padding: 23px 0 45px 0;
     margin: 112px 0;
-    /* border: groove; */
   }
 
   .info1 {
@@ -914,6 +906,8 @@ div.ask_for_action_area {
     gap: 30px;
   }
 
+  /* Hero 2 Starts */
+
   div.hero2 {
     display: flex;
     flex-direction: row;
@@ -928,10 +922,8 @@ div.ask_for_action_area {
   }
 
   .vegetables {
-    /* border: 14px solid #f0f1ec; */
     width: 400px;
     height: auto;
-    /* box-sizing: border-box; */
   }
 
   .hero2_text {
@@ -956,6 +948,10 @@ div.ask_for_action_area {
     width: 252px;
   }
 
+  /* Hero 2 Ends */
+
+  /* Hero 3 Starts */
+
   .hero3_area {
     flex-direction: row-reverse;
     gap: 252px;
@@ -965,8 +961,6 @@ div.ask_for_action_area {
   .hero3_background {
     width: 382px;
     height: 445px;
-    /* background-color: #f0f1ec;
-    margin: 84px 0 0 0; */
   }
 
   .hero3_img {
@@ -974,15 +968,11 @@ div.ask_for_action_area {
     height: 400px;
     margin-top: 39px;
     margin-left: 94px;
-    /* position: absolute; */
   }
 
   .hero3_text {
     margin-top: 95px;
     width: 29%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     align-items: flex-start;
     gap: 10px;
   }
@@ -998,15 +988,13 @@ div.ask_for_action_area {
   }
 
   .info2_area {
-    /* display: flex; */
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center;
-    flex: 1;
-    text-align: center; */
     gap: 72px;
-    /* margin: 25px 0; */
   }
+
+  /* Hero 3 Ends */
+
+  /* Feature Area Starts */
 
   .feature_para {
     font-size: 14px;
@@ -1058,23 +1046,16 @@ div.ask_for_action_area {
   }
 
   .feature_block2 {
-    /* display: flex
-;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 0px 0 24px; */
     width: 252px;
     height: 220px;
   }
 
+  /* Feature Area Ends */
+
+  /* Popular Product Area Starts */
+
   .popular_product_text {
     width: 100%;
-    /* margin: 20px 0;
-    display: flex
-; */
-    /* flex-direction: column;
-    justify-content: center; */
     align-items: flex-start;
     margin: auto;
   }
@@ -1089,42 +1070,32 @@ div.ask_for_action_area {
 
   .popular_product_cards {
     width: 995px;
-    /* margin: 20px 0;
-    display: flex
-; */
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center;*/
     gap: 0;
     margin-top: 2px;
   }
 
+  /* Popular Product Area Ends */
+
+  /* Ask for Action Area Starts */
+
   div.ask_for_action_area {
-    /* background-image: url(Rectangle 9.png); */
     width: 67%;
-    /* height: 303px; */
-    /* width: 341px; */
     margin: 36px;
   }
 
   .ask_for_action {
     width: 100%;
-    /* height: 303px; */
-    /* width: 341px; */
-    /* display: flex
-; */
-    /* flex-direction: column; */
     justify-content: space-evenly;
-    /* align-items: center; */
   }
-
-  /* footer {
-          width: 66%;
-        } */
 
   .ask_for_action_title {
     width: 46%;
   }
+
+  /* Ask For Action Area Ends */
+
+  /* Footer Area Starts */
 
   .footer_area {
     margin: 0 auto;
@@ -1185,3 +1156,5 @@ div.ask_for_action_area {
     text-align: center;
   }
 }
+
+/* Footer Area Ends */
